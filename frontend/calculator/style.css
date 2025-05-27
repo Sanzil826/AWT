@@ -34,25 +34,36 @@ header{
 .screen1{
    
     position: absolute;
-    top: 13vh;
-    left: 18vw;
+    top: 12vh;
+    font-size: 4vh;
+}
+
+.screen1 input{
+    height: 7vh;
+    width: 22.7vw;
+    text-align: right;
+    background-color: black;
+    border: black;
+    color: white;
     font-size: 4vh;
 }
 
 .screen2{
     position: absolute;
-    top: 17vh;
-    left: 18.7vw;
-    font-size: 4vh;
-}
-
-.screen3{
-    
-    position: absolute;
-    top: 24vh;
-    left: 18vw;
+    top: 19vh;
     font-size: 8vh;
 }
+
+.screen2 input{
+    height: 10vh;
+    width: 22.7vw;
+    text-align: right;    
+    background-color: black;
+    border: black;
+    color: white;
+    font-size: 8vh;
+}
+
 
 .buttons{
     /* border: 1px solid white; */
